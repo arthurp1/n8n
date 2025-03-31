@@ -1,0 +1,29 @@
+{
+  "name": "n8n",
+  "version": "1.0.0",
+  "private": true,
+  "description": "n8n Workflow Automation Tool",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "homepage": "https://n8n.io",
+  "author": {
+    "name": "Jan Oberhauser",
+    "email": "jan@n8n.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n8n-io/n8n.git"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "lerna run build",
+    "dev": "lerna run dev --parallel",
+    "clean": "lerna clean",
+    "start": "lerna run start"
+  },
+  "devDependencies": {
+    "lerna": "^7.1.4",
+    "typescript": "^5.1.6"
+  }
+} 

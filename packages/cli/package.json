@@ -1,0 +1,27 @@
+{
+  "name": "n8n",
+  "version": "1.0.0",
+  "description": "n8n Workflow Automation Tool",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "homepage": "https://n8n.io",
+  "author": {
+    "name": "Jan Oberhauser",
+    "email": "jan@n8n.io"
+  },
+  "main": "dist/index",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "n8n start"
+  },
+  "dependencies": {
+    "@n8n/di": "^1.0.0",
+    "axios": "^1.6.0",
+    "n8n-core": "^1.0.0",
+    "n8n-workflow": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+} 
